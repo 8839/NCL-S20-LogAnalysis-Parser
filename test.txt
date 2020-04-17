@@ -1,0 +1,69 @@
+2019-07-12 11:36:28 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
+(
+    [from] => 12013771480
+    [to] => 12013775906
+    [uuid] => c2949058e7ab54c71b73ca31a7dbf7c6
+    [conversation_uuid] => CON-6eae6fae-1a6e-4aab-ab29-a7fcad10e486
+    [status] => ringing
+    [direction] => inbound
+    [timestamp] => 2019-07-12T17:36:27.872Z
+)
+
+2019-07-12 11:36:28 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
+(
+    [from] => 12013771480
+    [to] => 12013775906
+    [uuid] => c2949058e7ab54c71b73ca31a7dbf7c6
+    [conversation_uuid] => CON-6eae6fae-1a6e-4aab-ab29-a7fcad10e486
+    [status] => started
+    [direction] => inbound
+    [timestamp] => 2019-07-12T17:36:27.872Z
+)
+
+2019-07-12 11:36:28 | VOICE CALL RECEIVED TO FUNNEL ID 1257!
+2019-07-12 11:36:28 | VOICE CALL RECEIVED TO FUNNEL ID 1257!
+2019-07-12 11:36:28 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
+(
+    [start_time] => 
+    [rate] => 
+    [from] => 12013771480
+    [to] => 12013775906
+    [uuid] => c2949058e7ab54c71b73ca31a7dbf7c6
+    [conversation_uuid] => CON-6eae6fae-1a6e-4aab-ab29-a7fcad10e486
+    [status] => answered
+    [direction] => inbound
+    [network] => 
+    [timestamp] => 2019-07-12T17:36:28.284Z
+)
+
+2019-07-12 11:36:28 | VOICE CALL RECEIVED TO FUNNEL ID 1257!
+2019-07-12 11:36:39 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
+(
+    [end_time] => 2019-07-12T17:36:40.000Z
+    [uuid] => c2949058e7ab54c71b73ca31a7dbf7c6
+    [network] => US-FIXED
+    [duration] => 12
+    [start_time] => 2019-07-12T17:36:28.000Z
+    [rate] => 0.00450000
+    [price] => 0.00090000
+    [from] => 12013771480
+    [to] => 12013775906
+    [conversation_uuid] => CON-6eae6fae-1a6e-4aab-ab29-a7fcad10e486
+    [status] => completed
+    [direction] => inbound
+    [timestamp] => 2019-07-12T17:36:39.417Z
+)
+
+2019-07-12 11:36:39 | VOICE CALL RECEIVED TO FUNNEL ID 1257!
+2019-07-12 11:36:39 | NEW INCOMING REQUEST VARIABLES RECEIVED: 
+2019-07-12 11:36:39 | VOICE CALL RECEIVED TO FUNNEL ID !
+2019-07-12 11:36:49 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
+(
+    [dtmf] => 
+    [timed_out] => 1
+    [uuid] => 
+    [conversation_uuid] => CON-6eae6fae-1a6e-4aab-ab29-a7fcad10e486
+    [timestamp] => 2019-07-12T17:36:49.470Z
+    [to] => 12013775906
+    [from] => 12013771480
+)
