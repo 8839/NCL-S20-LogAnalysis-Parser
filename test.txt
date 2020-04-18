@@ -67,3 +67,10 @@
     [to] => 12013775906
     [from] => 12013771480
 )
+
+2019-07-19 18:23:13 | Updating Fields Array
+(
+    [press1_message_sent] => 2019-07-19 18:23:13
+    [intro_sent_datetime] => 2019-07-19 18:23:13
+    [last_response_sent] => get_name
+)

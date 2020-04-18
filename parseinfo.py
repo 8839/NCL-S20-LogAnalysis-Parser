@@ -1,12 +1,12 @@
-
-import os
+#!/usr/bin/env python
 
 def main():
-    f = open("test.txt", "r")
-    log = f.readlines()
+    input_file = open("Call.log", "r")
+    log = input_file.readlines()
 
     data_order = ['from','to','uuid','conversation_uuid','status','direction','timestamp',
-            'start_time','end_time','duration','rate','price','network','timed_out','dtmf']
+            'start_time','end_time','duration','rate','price','network','timed_out','dtmf',
+            'press1_message_sent','intro_sent_datetime','last_response_sent','encoded_id']
 
     output = []
     data_line = []
@@ -30,15 +30,22 @@ def main():
         else:
             if line is "(":
                 is_array = True
-                data_line = ["-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]
+                data_line = ["-","-","-","-","-","-","-","-","-","-",
+                             "-","-","-","-","-","-","-","-","-"]
             elif line is "":
                 continue
             else:
                 output.append(line.replace(" | ", ",") + ",")
                 array_pos += 1
 
+    output_file = open("Call_Formatted.csv","a")
+
+    output_file.write("date,requestMessage,")
+    for item in data_order:
+        output_file.write(item + ",")
+
     for line in output:
-        print(line)
+        output_file.write("\n" + line)
 
     return
 
