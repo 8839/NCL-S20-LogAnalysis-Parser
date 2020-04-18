@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Author: Patrick Perrine
+# File: parseinfo.py
+# Function: Call Log Parser for NCL Spring 2020
+
 def main():
     input_file = open("Call.log", "r")
     log = input_file.readlines()
