@@ -23,9 +23,11 @@ def main():
                 entry = line.split(" ")
                 id = entry[0].replace("[","").replace("]","")
                 if len(entry) == 3:
-                    data = entry[2] 
+                    data = entry[2]
+                elif len(entry) == 4:
+                    data = entry[2] + "T" + entry[3]
                 else:
-                    data = "-EMPTY-"
+                    data = "Missing"
                 data_line[data_order.index(id)] = data
         else:
             if line is "(":
