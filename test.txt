@@ -9,17 +9,6 @@
     [timestamp] => 2019-07-12T17:36:27.872Z
 )
 
-2019-07-12 11:36:28 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
-(
-    [from] => 12013771480
-    [to] => 12013775906
-    [uuid] => c2949058e7ab54c71b73ca31a7dbf7c6
-    [conversation_uuid] => CON-6eae6fae-1a6e-4aab-ab29-a7fcad10e486
-    [status] => started
-    [direction] => inbound
-    [timestamp] => 2019-07-12T17:36:27.872Z
-)
-
 2019-07-12 11:36:28 | VOICE CALL RECEIVED TO FUNNEL ID 1257!
 2019-07-12 11:36:28 | VOICE CALL RECEIVED TO FUNNEL ID 1257!
 2019-07-12 11:36:28 | NEW INCOMING REQUEST VARIABLES RECEIVED: Array
